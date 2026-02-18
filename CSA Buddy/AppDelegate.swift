@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  FTA Buddy
+//  CSA Buddy
 //
 //  Created by Ken Schenke on 2/26/19.
 //  Copyright © 2019 Ken Schenke. All rights reserved.
