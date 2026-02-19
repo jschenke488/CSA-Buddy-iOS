@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		140A89ADEEB9D718DA1939B8 /* Pods_CSA_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D212C696050F4754E1B158EC /* Pods_CSA_Buddy.framework */; };
-		BE43F82E22263CEE00322B62 /* FlashCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE43F82D22263CEE00322B62 /* FlashCardViewController.swift */; };
 		BE9EF1CD2227590A007BD23B /* html in Resources */ = {isa = PBXBuildFile; fileRef = BE9EF1CC2227590A007BD23B /* html */; };
 		BE9EF1CF22276D8E007BD23B /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */; };
 		BE9EF1D1222773D4007BD23B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9EF1D0222773D4007BD23B /* LICENSE */; };
@@ -17,8 +16,6 @@
 		BED7EC12222623E5007180BB /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7EC11222623E5007180BB /* MainTabViewController.swift */; };
 		BED7EC14222631D3007180BB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7EC13222631D3007180BB /* AppSettings.swift */; };
 		BEE3491A2225FDEC009B8ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE349192225FDEC009B8ED3 /* AppDelegate.swift */; };
-		BEE3491C2225FDEC009B8ED3 /* FieldMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE3491B2225FDEC009B8ED3 /* FieldMonitorViewController.swift */; };
-		BEE3491E2225FDEC009B8ED3 /* FlashCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE3491D2225FDEC009B8ED3 /* FlashCardsViewController.swift */; };
 		BEE349212225FDEC009B8ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE3491F2225FDEC009B8ED3 /* Main.storyboard */; };
 		BEE349232225FDED009B8ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE349222225FDED009B8ED3 /* Assets.xcassets */; };
 		BEE349262225FDED009B8ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE349242225FDED009B8ED3 /* LaunchScreen.storyboard */; };
@@ -27,7 +24,6 @@
 /* Begin PBXFileReference section */
 		04FED1AD66DE20184A311A88 /* Pods-CSA Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSA Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy.release.xcconfig"; sourceTree = "<group>"; };
 		68D62D6ED1E7D9377AA86F74 /* Pods-CSA Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSA Buddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy.debug.xcconfig"; sourceTree = "<group>"; };
-		BE43F82D22263CEE00322B62 /* FlashCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardViewController.swift; sourceTree = "<group>"; };
 		BE9EF1CC2227590A007BD23B /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
 		BE9EF1D0222773D4007BD23B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -37,8 +33,6 @@
 		BED7EC13222631D3007180BB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		BEE349162225FDEC009B8ED3 /* CSA Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSA Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE349192225FDEC009B8ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BEE3491B2225FDEC009B8ED3 /* FieldMonitorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldMonitorViewController.swift; sourceTree = "<group>"; };
-		BEE3491D2225FDEC009B8ED3 /* FlashCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsViewController.swift; sourceTree = "<group>"; };
 		BEE349202225FDEC009B8ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEE349222225FDED009B8ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEE349252225FDED009B8ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -101,15 +95,12 @@
 				BE9EF1D0222773D4007BD23B /* LICENSE */,
 				BE9EF1CC2227590A007BD23B /* html */,
 				BEE349192225FDEC009B8ED3 /* AppDelegate.swift */,
-				BEE3491B2225FDEC009B8ED3 /* FieldMonitorViewController.swift */,
-				BEE3491D2225FDEC009B8ED3 /* FlashCardsViewController.swift */,
 				BEE3491F2225FDEC009B8ED3 /* Main.storyboard */,
 				BEE349222225FDED009B8ED3 /* Assets.xcassets */,
 				BEE349242225FDED009B8ED3 /* LaunchScreen.storyboard */,
 				BEE349272225FDED009B8ED3 /* Info.plist */,
 				BED7EC11222623E5007180BB /* MainTabViewController.swift */,
 				BED7EC13222631D3007180BB /* AppSettings.swift */,
-				BE43F82D22263CEE00322B62 /* FlashCardViewController.swift */,
 				BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */,
 				BE9EF1D2222773E6007BD23B /* AboutViewController.swift */,
 			);
@@ -238,14 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE3491E2225FDEC009B8ED3 /* FlashCardsViewController.swift in Sources */,
 				BED7EC12222623E5007180BB /* MainTabViewController.swift in Sources */,
 				BEE3491A2225FDEC009B8ED3 /* AppDelegate.swift in Sources */,
-				BE43F82E22263CEE00322B62 /* FlashCardViewController.swift in Sources */,
 				BE9EF1CF22276D8E007BD23B /* ReferenceViewController.swift in Sources */,
 				BED7EC14222631D3007180BB /* AppSettings.swift in Sources */,
 				BE9EF1D3222773E6007BD23B /* AboutViewController.swift in Sources */,
-				BEE3491C2225FDEC009B8ED3 /* FieldMonitorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

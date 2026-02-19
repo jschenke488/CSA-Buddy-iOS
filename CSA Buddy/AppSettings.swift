@@ -13,13 +13,8 @@ class AppSettings {
     var fieldMonitor = ""
     
     func load() {
-        if let fieldMonitorSetting = defaults.string(forKey: "FieldMonitor") {
-            fieldMonitor = fieldMonitorSetting
-        }
     }
     
     func save(newFieldMonitor : String) {
-        defaults.set(newFieldMonitor, forKey: "FieldMonitor")
-        fieldMonitor = newFieldMonitor
     }
 }

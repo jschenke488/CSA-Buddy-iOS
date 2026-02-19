@@ -15,13 +15,9 @@ class MainTabViewController: UITabBarController {
         super.viewDidLoad()
         
         let size = CGSize(width: 32, height: 32)
-        tabBar.items?[0].image = UIImage.fontAwesomeIcon(name: .desktop, style: .solid,
+        tabBar.items?[0].image = UIImage.fontAwesomeIcon(name: .book, style: .solid,
                                                          textColor: UIColor.blue, size: size)
-        tabBar.items?[1].image = UIImage.fontAwesomeIcon(name: .stickyNote, style: .solid,
-                                                         textColor: UIColor.blue, size: size)
-        tabBar.items?[2].image = UIImage.fontAwesomeIcon(name: .book, style: .solid,
-                                                         textColor: UIColor.blue, size: size)
-        tabBar.items?[3].image = UIImage.fontAwesomeIcon(name: .infoCircle, style: .solid,
+        tabBar.items?[1].image = UIImage.fontAwesomeIcon(name: .infoCircle, style: .solid,
                                                          textColor: UIColor.blue, size: size)
     }
     
