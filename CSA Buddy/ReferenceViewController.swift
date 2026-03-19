@@ -18,13 +18,9 @@ class ReferenceViewController: UIViewController, WKNavigationDelegate {
 
         let accessibilityModeEnabled = UserSettings.shared.accessibilityModeEnabled
         
-        let referenceFile = accessibilityModeEnabled ? "reference-accessible" : "reference"
-        
-        let url = Bundle.main.url(forResource: referenceFile, withExtension: "html", subdirectory: "html")!
         webView.navigationDelegate = self
-        webView.loadFileURL(url, allowingReadAccessTo: url)
-        let request = URLRequest(url: url)
-        webView.load(request)
+        loadReferencePage()
+        NotificationCenter.default.addObserver(self, selector: #selector(accessibilityModeChanged), name: AppConstants.Notifications.accessibilityModeChanged, object: nil)
     }
     
     func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
@@ -47,5 +43,21 @@ class ReferenceViewController: UIViewController, WKNavigationDelegate {
         }
 
         decisionHandler(.cancel)
+    }
+
+    private func loadReferencePage() {
+        let fileName = UserSettings.shared.accessibilityModeEnabled ? "reference-accessible" : "reference"
+        guard let url = Bundle.main.url(forResource: fileName, withExtension: "html", subdirectory: "html") else { return }
+        webView.loadFileURL(url, allowingReadAccessTo: url)
+        let request = URLRequest(url: url)
+        webView.load(request)
+    }
+
+    @objc private func accessibilityModeChanged() {
+        loadReferencePage()
+    }
+
+    deinit {
+        NotificationCenter.default.removeObserver(self, name: AppConstants.Notifications.accessibilityModeChanged, object: nil)
     }
 }

@@ -22,6 +22,7 @@ class SettingsViewController: UIViewController {
     
     @IBAction func switchToggled(_ sender: UISwitch) {
         UserSettings.shared.accessibilityModeEnabled = sender.isOn
+        NotificationCenter.default.post(name: AppConstants.Notifications.accessibilityModeChanged, object: nil)
     }
     
 }

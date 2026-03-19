@@ -15,4 +15,10 @@ enum AppConstants {
         /// Whether the user has completed or dismissed onboarding.
         static let accessibilityModeEnabled = "accessibilityModeEnabled"
     }
+    
+    /// Notification names used across the app
+    enum Notifications {
+        /// Posted when accessibility mode is toggled in Settings
+        static let accessibilityModeChanged = Notification.Name("AccessibilityModeChanged")
+    }
 }
