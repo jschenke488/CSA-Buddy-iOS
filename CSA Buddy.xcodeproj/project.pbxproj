@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		140A89ADEEB9D718DA1939B8 /* Pods_CSA_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D212C696050F4754E1B158EC /* Pods_CSA_Buddy.framework */; };
+		BE55E8F02F6B8D9600E3BF5A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55E8EF2F6B8D9600E3BF5A /* AppConstants.swift */; };
+		BE55E8F22F6B8D9800E3BF5A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55E8F12F6B8D9800E3BF5A /* UserSettings.swift */; };
+		BE55E8F62F6B93E300E3BF5A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55E8F52F6B93DA00E3BF5A /* SettingsViewController.swift */; };
 		BE9EF1CD2227590A007BD23B /* html in Resources */ = {isa = PBXBuildFile; fileRef = BE9EF1CC2227590A007BD23B /* html */; };
 		BE9EF1CF22276D8E007BD23B /* ReferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */; };
 		BE9EF1D1222773D4007BD23B /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE9EF1D0222773D4007BD23B /* LICENSE */; };
 		BE9EF1D3222773E6007BD23B /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9EF1D2222773E6007BD23B /* AboutViewController.swift */; };
 		BEC926602409586000CBD455 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC9265F2409586000CBD455 /* WebKit.framework */; };
 		BED7EC12222623E5007180BB /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7EC11222623E5007180BB /* MainTabViewController.swift */; };
-		BED7EC14222631D3007180BB /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED7EC13222631D3007180BB /* AppSettings.swift */; };
 		BEE3491A2225FDEC009B8ED3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE349192225FDEC009B8ED3 /* AppDelegate.swift */; };
 		BEE349212225FDEC009B8ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE3491F2225FDEC009B8ED3 /* Main.storyboard */; };
 		BEE349232225FDED009B8ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE349222225FDED009B8ED3 /* Assets.xcassets */; };
@@ -24,13 +26,15 @@
 /* Begin PBXFileReference section */
 		04FED1AD66DE20184A311A88 /* Pods-CSA Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSA Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy.release.xcconfig"; sourceTree = "<group>"; };
 		68D62D6ED1E7D9377AA86F74 /* Pods-CSA Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSA Buddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		BE55E8EF2F6B8D9600E3BF5A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		BE55E8F12F6B8D9800E3BF5A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		BE55E8F52F6B93DA00E3BF5A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BE9EF1CC2227590A007BD23B /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
 		BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceViewController.swift; sourceTree = "<group>"; };
 		BE9EF1D0222773D4007BD23B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE9EF1D2222773E6007BD23B /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		BEC9265F2409586000CBD455 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		BED7EC11222623E5007180BB /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
-		BED7EC13222631D3007180BB /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		BEE349162225FDEC009B8ED3 /* CSA Buddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CSA Buddy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE349192225FDEC009B8ED3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEE349202225FDEC009B8ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -92,6 +96,7 @@
 		BEE349182225FDEC009B8ED3 /* CSA Buddy */ = {
 			isa = PBXGroup;
 			children = (
+				BE55E8F52F6B93DA00E3BF5A /* SettingsViewController.swift */,
 				BE9EF1D0222773D4007BD23B /* LICENSE */,
 				BE9EF1CC2227590A007BD23B /* html */,
 				BEE349192225FDEC009B8ED3 /* AppDelegate.swift */,
@@ -100,9 +105,10 @@
 				BEE349242225FDED009B8ED3 /* LaunchScreen.storyboard */,
 				BEE349272225FDED009B8ED3 /* Info.plist */,
 				BED7EC11222623E5007180BB /* MainTabViewController.swift */,
-				BED7EC13222631D3007180BB /* AppSettings.swift */,
 				BE9EF1CE22276D8E007BD23B /* ReferenceViewController.swift */,
 				BE9EF1D2222773E6007BD23B /* AboutViewController.swift */,
+				BE55E8EF2F6B8D9600E3BF5A /* AppConstants.swift */,
+				BE55E8F12F6B8D9800E3BF5A /* UserSettings.swift */,
 			);
 			path = "CSA Buddy";
 			sourceTree = "<group>";
@@ -209,9 +215,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -226,10 +236,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED7EC12222623E5007180BB /* MainTabViewController.swift in Sources */,
+				BE55E8F02F6B8D9600E3BF5A /* AppConstants.swift in Sources */,
 				BEE3491A2225FDEC009B8ED3 /* AppDelegate.swift in Sources */,
 				BE9EF1CF22276D8E007BD23B /* ReferenceViewController.swift in Sources */,
-				BED7EC14222631D3007180BB /* AppSettings.swift in Sources */,
+				BE55E8F22F6B8D9800E3BF5A /* UserSettings.swift in Sources */,
 				BE9EF1D3222773E6007BD23B /* AboutViewController.swift in Sources */,
+				BE55E8F62F6B93E300E3BF5A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,15 +394,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = WC7R2MUF8W;
 				INFOPLIST_FILE = "CSA Buddy/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CSA Buddy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.03;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenschenke.CSA-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -406,15 +420,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = WC7R2MUF8W;
 				INFOPLIST_FILE = "CSA Buddy/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "CSA Buddy";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.03;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenschenke.CSA-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

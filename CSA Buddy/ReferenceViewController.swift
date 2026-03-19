@@ -16,7 +16,11 @@ class ReferenceViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let url = Bundle.main.url(forResource: "reference", withExtension: "html", subdirectory: "html")!
+        let accessibilityModeEnabled = UserSettings.shared.accessibilityModeEnabled
+        
+        let referenceFile = accessibilityModeEnabled ? "reference-accessible" : "reference"
+        
+        let url = Bundle.main.url(forResource: referenceFile, withExtension: "html", subdirectory: "html")!
         webView.navigationDelegate = self
         webView.loadFileURL(url, allowingReadAccessTo: url)
         let request = URLRequest(url: url)
