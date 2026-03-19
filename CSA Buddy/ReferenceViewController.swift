@@ -18,6 +18,7 @@ class ReferenceViewController: UIViewController, WKNavigationDelegate {
 
         let accessibilityModeEnabled = UserSettings.shared.accessibilityModeEnabled
         
+        webView.customUserAgent = "CSABuddy"
         webView.navigationDelegate = self
         loadReferencePage()
         NotificationCenter.default.addObserver(self, selector: #selector(accessibilityModeChanged), name: AppConstants.Notifications.accessibilityModeChanged, object: nil)
