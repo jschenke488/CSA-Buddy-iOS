@@ -16,7 +16,7 @@ class ReferenceViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let accessibilityModeEnabled = UserSettings.shared.accessibilityModeEnabled
+        _ = UserSettings.shared.accessibilityModeEnabled
         
         webView.customUserAgent = "CSABuddy"
         webView.navigationDelegate = self
