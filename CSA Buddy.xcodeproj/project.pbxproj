@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		140A89ADEEB9D718DA1939B8 /* Pods_CSA_Buddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D212C696050F4754E1B158EC /* Pods_CSA_Buddy.framework */; };
+		BE12F83E305CD5AF00981C8D /* GuidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12F83D305CD5AF00981C8D /* GuidesViewController.swift */; };
 		BE55E8F02F6B8D9600E3BF5A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55E8EF2F6B8D9600E3BF5A /* AppConstants.swift */; };
 		BE55E8F22F6B8D9800E3BF5A /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55E8F12F6B8D9800E3BF5A /* UserSettings.swift */; };
 		BE55E8F62F6B93E300E3BF5A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE55E8F52F6B93DA00E3BF5A /* SettingsViewController.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		04FED1AD66DE20184A311A88 /* Pods-CSA Buddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSA Buddy.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy.release.xcconfig"; sourceTree = "<group>"; };
 		68D62D6ED1E7D9377AA86F74 /* Pods-CSA Buddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSA Buddy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSA Buddy/Pods-CSA Buddy.debug.xcconfig"; sourceTree = "<group>"; };
+		BE12F83D305CD5AF00981C8D /* GuidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidesViewController.swift; sourceTree = "<group>"; };
 		BE55E8EF2F6B8D9600E3BF5A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		BE55E8F12F6B8D9800E3BF5A /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 		BE55E8F52F6B93DA00E3BF5A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				BE55E8EF2F6B8D9600E3BF5A /* AppConstants.swift */,
 				BE55E8F12F6B8D9800E3BF5A /* UserSettings.swift */,
 				BE7DBD26305A2A950031A9BF /* SceneDelegate.swift */,
+				BE12F83D305CD5AF00981C8D /* GuidesViewController.swift */,
 			);
 			path = "CSA Buddy";
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				BE9EF1D3222773E6007BD23B /* AboutViewController.swift in Sources */,
 				BE55E8F62F6B93E300E3BF5A /* SettingsViewController.swift in Sources */,
 				BE7DBD27305A2A950031A9BF /* SceneDelegate.swift in Sources */,
+				BE12F83E305CD5AF00981C8D /* GuidesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				INFOPLIST_FILE = "CSA Buddy/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "CSA Buddy";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -411,7 +415,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenschenke.CSA-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -427,7 +431,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 18;
+				CURRENT_PROJECT_VERSION = 19;
 				INFOPLIST_FILE = "CSA Buddy/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "CSA Buddy";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
@@ -436,7 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0.7;
+				MARKETING_VERSION = 2.0.8;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kenschenke.CSA-Buddy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

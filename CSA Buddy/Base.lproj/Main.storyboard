@@ -42,7 +42,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNu-FQ-Aco" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1372" y="-37.331334332833585"/>
+            <point key="canvasLocation" x="1327" y="-28"/>
+        </scene>
+        <!--Guides-->
+        <scene sceneID="Gd1-Qs-A0o">
+            <objects>
+                <viewController id="Gd1-Vc-Sg8" customClass="GuidesViewController" customModule="CSA_Buddy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gd1-Vw-ahj">
+                        <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gd1-Wv-cE2">
+                                <rect key="frame" x="16" y="124" width="370" height="633"/>
+                                <color key="backgroundColor" red="0.36078431372549019" green="0.38823529411764707" blue="0.40392156862745099" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Gd1-Sa-AWv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Gd1-Sa-AWv" firstAttribute="bottom" secondItem="Gd1-Wv-cE2" secondAttribute="bottom" id="Gd1-C1-pH2"/>
+                            <constraint firstItem="Gd1-Wv-cE2" firstAttribute="top" secondItem="Gd1-Sa-AWv" secondAttribute="top" id="Gd1-C2-RiE"/>
+                            <constraint firstItem="Gd1-Sa-AWv" firstAttribute="trailing" secondItem="Gd1-Wv-cE2" secondAttribute="trailing" constant="16" id="Gd1-C3-hiz"/>
+                            <constraint firstItem="Gd1-Wv-cE2" firstAttribute="leading" secondItem="Gd1-Sa-AWv" secondAttribute="leading" constant="16" id="Gd1-C4-JXJ"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Guides" id="Gd1-Tb-ak1"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="webView" destination="Gd1-Wv-cE2" id="Gd1-Ol-4h6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gd1-Fr-Aco" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1327" y="700"/>
         </scene>
         <!--About-->
         <scene sceneID="BLF-im-Ag7">
@@ -52,8 +88,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSA Buddy 2.0.7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1d-DJ-vPC">
-                                <rect key="frame" x="107" y="151" width="188" height="29"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSA Buddy 2.0.8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1d-DJ-vPC">
+                                <rect key="frame" x="106" y="151" width="190" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -134,6 +170,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="deq-yj-Sg8" kind="relationship" relationship="viewControllers" id="lBF-fc-Gac"/>
+                        <segue destination="Gd1-Vc-Sg8" kind="relationship" relationship="viewControllers" id="Gd1-Sg-KPD"/>
                         <segue destination="Z8Q-1Y-LkU" kind="relationship" relationship="viewControllers" id="9q9-k3-KPD"/>
                         <segue destination="f35-ct-X8J" kind="relationship" relationship="viewControllers" id="aRq-o1-ad4"/>
                     </connections>
