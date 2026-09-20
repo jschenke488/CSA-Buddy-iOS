@@ -88,7 +88,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSA Buddy 2.0.8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1d-DJ-vPC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CSA Buddy 2.0.9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U1d-DJ-vPC">
                                 <rect key="frame" x="106" y="151" width="190" height="29"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <nil key="textColor"/>
@@ -106,12 +106,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Assets: github.com/jschenke488/CSA-Buddy-Assets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awb-4c-jIq">
-                                <rect key="frame" x="26" y="275" width="350" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jYV-LT-vN9">
                                 <rect key="frame" x="16" y="300" width="370" height="448"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -119,8 +113,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Source: github.com/jschenke488/CSA-Buddy-iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecA-fm-ego">
-                                <rect key="frame" x="35" y="246" width="332" height="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Source: github.com/jschenke488/CSA-Buddy-iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ecA-fm-ego">
+                                <rect key="frame" x="16" y="246" width="370" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Assets: github.com/jschenke488/CSA-Buddy-Assets" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="awb-4c-jIq">
+                                <rect key="frame" x="16" y="275" width="370" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -130,12 +130,11 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="jYV-LT-vN9" firstAttribute="leading" secondItem="LN6-S0-Mbb" secondAttribute="leading" constant="16" id="28k-bL-Ng8"/>
-                            <constraint firstItem="LN6-S0-Mbb" firstAttribute="trailing" secondItem="awb-4c-jIq" secondAttribute="trailing" constant="26" id="Brs-lj-emc"/>
+                            <constraint firstItem="LN6-S0-Mbb" firstAttribute="trailing" secondItem="awb-4c-jIq" secondAttribute="trailing" constant="16" id="Brs-lj-emc"/>
                             <constraint firstItem="AAZ-ZR-1tQ" firstAttribute="centerX" secondItem="Li4-Pc-QSv" secondAttribute="centerX" id="IUw-1e-lFt"/>
-                            <constraint firstItem="LN6-S0-Mbb" firstAttribute="trailing" secondItem="ecA-fm-ego" secondAttribute="trailing" constant="35" id="KAR-Ai-ilw"/>
+                            <constraint firstItem="LN6-S0-Mbb" firstAttribute="trailing" secondItem="ecA-fm-ego" secondAttribute="trailing" constant="16" id="KAR-Ai-ilw"/>
                             <constraint firstItem="U1d-DJ-vPC" firstAttribute="centerX" secondItem="Li4-Pc-QSv" secondAttribute="centerX" id="Lix-EF-6cy"/>
                             <constraint firstItem="jYV-LT-vN9" firstAttribute="top" secondItem="awb-4c-jIq" secondAttribute="bottom" constant="8" id="NAb-YH-YNJ"/>
-                            <constraint firstItem="awb-4c-jIq" firstAttribute="centerX" secondItem="Li4-Pc-QSv" secondAttribute="centerX" id="NYn-ev-xPs"/>
                             <constraint firstItem="jYV-LT-vN9" firstAttribute="top" secondItem="awb-4c-jIq" secondAttribute="bottom" constant="8" id="Ntz-c1-q5S"/>
                             <constraint firstItem="LN6-S0-Mbb" firstAttribute="bottom" secondItem="jYV-LT-vN9" secondAttribute="bottom" constant="9" id="ObC-h4-cPq"/>
                             <constraint firstItem="Fxx-Yy-ofC" firstAttribute="top" secondItem="U1d-DJ-vPC" secondAttribute="bottom" constant="8" id="PSe-v7-taH"/>
@@ -143,8 +142,8 @@
                             <constraint firstItem="Fxx-Yy-ofC" firstAttribute="centerX" secondItem="Li4-Pc-QSv" secondAttribute="centerX" id="hej-k4-0vR"/>
                             <constraint firstItem="AAZ-ZR-1tQ" firstAttribute="top" secondItem="Fxx-Yy-ofC" secondAttribute="bottom" constant="8" id="hn0-h8-U06"/>
                             <constraint firstItem="ecA-fm-ego" firstAttribute="top" secondItem="AAZ-ZR-1tQ" secondAttribute="bottom" constant="8" id="ibX-i2-oex"/>
-                            <constraint firstItem="ecA-fm-ego" firstAttribute="leading" secondItem="LN6-S0-Mbb" secondAttribute="leading" constant="35" id="jup-Ex-cpg"/>
-                            <constraint firstItem="awb-4c-jIq" firstAttribute="leading" secondItem="LN6-S0-Mbb" secondAttribute="leading" constant="26" id="qpv-g8-6Pu"/>
+                            <constraint firstItem="ecA-fm-ego" firstAttribute="leading" secondItem="LN6-S0-Mbb" secondAttribute="leading" constant="16" id="jup-Ex-cpg"/>
+                            <constraint firstItem="awb-4c-jIq" firstAttribute="leading" secondItem="LN6-S0-Mbb" secondAttribute="leading" constant="16" id="qpv-g8-6Pu"/>
                             <constraint firstItem="awb-4c-jIq" firstAttribute="top" secondItem="ecA-fm-ego" secondAttribute="bottom" constant="12" id="sD2-ZL-9YC"/>
                             <constraint firstItem="LN6-S0-Mbb" firstAttribute="trailing" secondItem="jYV-LT-vN9" secondAttribute="trailing" constant="16" id="uGC-cp-VDH"/>
                             <constraint firstItem="U1d-DJ-vPC" firstAttribute="top" secondItem="LN6-S0-Mbb" secondAttribute="top" constant="27" id="xAv-EB-PFR"/>
@@ -187,30 +186,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="402" height="874"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Enabling accessibility mode will add descriptions on LEDs of the colors and patterns." lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyq-As-nnb">
-                                <rect key="frame" x="16" y="89" width="361" height="82"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H2F-A7-jVb">
-                                <rect key="frame" x="318" y="179" width="61" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H2F-A7-jVb">
+                                <rect key="frame" x="318" y="209" width="63" height="28"/>
                                 <connections>
                                     <action selector="switchToggled:" destination="Z8Q-1Y-LkU" eventType="valueChanged" id="wwj-zz-rLQ"/>
                                 </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accessibility Mode Enabled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLT-0f-Tg9">
-                                <rect key="frame" x="16" y="179" width="294" height="28"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Accessibility Mode Enabled" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLT-0f-Tg9">
+                                <rect key="frame" x="16" y="209" width="294" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enabling accessibility mode will add descriptions on LEDs of the colors and patterns." lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pyq-As-nnb">
+                                <rect key="frame" x="16" y="140" width="363" height="61"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4z5-Jc-B2Y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JLT-0f-Tg9" firstAttribute="bottom" secondItem="H2F-A7-jVb" secondAttribute="bottom" id="0wf-h2-tap"/>
+                            <constraint firstItem="JLT-0f-Tg9" firstAttribute="top" secondItem="pyq-As-nnb" secondAttribute="bottom" constant="8" symbolic="YES" id="8L4-4r-AMO"/>
+                            <constraint firstItem="JLT-0f-Tg9" firstAttribute="leading" secondItem="pyq-As-nnb" secondAttribute="leading" id="KPZ-oY-S0J"/>
+                            <constraint firstItem="pyq-As-nnb" firstAttribute="top" secondItem="4z5-Jc-B2Y" secondAttribute="top" constant="16" id="aB3-4x-desc1"/>
+                            <constraint firstItem="pyq-As-nnb" firstAttribute="leading" secondItem="4z5-Jc-B2Y" secondAttribute="leading" constant="16" id="aB3-4x-desc2"/>
+                            <constraint firstItem="4z5-Jc-B2Y" firstAttribute="trailing" secondItem="pyq-As-nnb" secondAttribute="trailing" constant="23" id="aB3-4x-desc3"/>
+                            <constraint firstItem="H2F-A7-jVb" firstAttribute="leading" secondItem="JLT-0f-Tg9" secondAttribute="trailing" constant="8" symbolic="YES" id="hAM-kB-Fzm"/>
+                            <constraint firstItem="JLT-0f-Tg9" firstAttribute="top" secondItem="H2F-A7-jVb" secondAttribute="top" id="lYO-rI-WdV"/>
+                            <constraint firstItem="4z5-Jc-B2Y" firstAttribute="trailing" secondItem="H2F-A7-jVb" secondAttribute="trailing" constant="23" id="nXo-kf-cDa"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" id="ga4-4G-Dxo"/>
                     <connections>
@@ -219,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D48-uq-qOy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="191.6030534351145" y="-677.46478873239437"/>
+            <point key="canvasLocation" x="191.04477611940297" y="-677.57437070938215"/>
         </scene>
     </scenes>
     <resources>
